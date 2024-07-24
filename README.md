@@ -60,4 +60,12 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0011-container-with-most-water) |
+## Math
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0371-sum-of-two-integers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0371-sum-of-two-integers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0371-sum-of-two-integers) |
 <!---LeetCode Topics End-->
