@@ -14,7 +14,7 @@ public:
             int area = (high - low) * mini;
             maxArea = max(maxArea, area);
 
-            if(height[low] == mini)
+            if(height[low] < height[high])
                 low++;
             
             else
