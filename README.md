@@ -11,6 +11,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0053-maximum-subarray) |
@@ -53,5 +54,10 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0015-3sum) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
