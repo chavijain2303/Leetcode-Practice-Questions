@@ -22,6 +22,7 @@
 | [0238-product-of-array-except-self](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 | [0907-koko-eating-bananas](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0907-koko-eating-bananas) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Binary Search
@@ -31,6 +32,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 | [0907-koko-eating-bananas](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0907-koko-eating-bananas) |
+| [1056-capacity-to-ship-packages-within-d-days](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 ## Hash Table
