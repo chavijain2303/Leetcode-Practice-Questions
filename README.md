@@ -86,6 +86,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0015-3sum) |
+| [0908-middle-of-the-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0908-middle-of-the-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -119,4 +120,5 @@
 |  |
 | ------- |
 | [0237-delete-node-in-a-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0237-delete-node-in-a-linked-list) |
+| [0908-middle-of-the-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
