@@ -9,23 +9,30 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head)
+{
+    // Pointers for traversing the list at different speeds
+    ListNode *slow = head; // Slow pointer, moves one step at a time
+    ListNode *fast = head; // Fast pointer, moves two steps at a time
+
+    // Traverse the list
+    while (fast != nullptr && fast->next != nullptr)
     {
-    // Map to keep track of visited nodes
-    map<ListNode *, int> mpp;
+        slow = slow->next;          // Move slow pointer one step
+        fast = fast->next->next;    // Move fast pointer two steps
 
-    ListNode *temp = head; // Start traversal from head
+        // If the slow and fast pointers meet, a cycle is detected
+        if (slow == fast)
+        {
+            slow = head;
 
-    while (temp != nullptr)
-    {
-        // If the current node has already been visited, a cycle is detected
-        if (mpp.find(temp) != mpp.end())
-            return temp;
+            while(slow != fast)
+            {
+                slow = slow -> next;
+                fast = fast -> next;
+            }
 
-        // Mark the current node as visited
-        mpp[temp] = 1;
-
-        // Move to the next node
-        temp = temp->next;
+            return slow;
+        }
     }
 
     // No cycle detected
