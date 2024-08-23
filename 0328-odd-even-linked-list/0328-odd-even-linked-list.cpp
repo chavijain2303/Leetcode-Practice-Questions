@@ -15,38 +15,21 @@ public:
         if(head == nullptr || head -> next == nullptr)
             return head;
             
-        vector<int>ls;
+        ListNode* odd = head;
+        ListNode* even = head -> next;
+        ListNode* evenHead = even;
 
-        ListNode* temp = head;
-
-        while(temp != nullptr && temp -> next != nullptr)
+        while(even != nullptr && even -> next != nullptr)
         {
-            ls.push_back(temp -> val);
-            temp = temp -> next -> next;
-        }
-        if(temp)
-            ls.push_back(temp -> val);
-        
-        temp = head -> next;
+            odd -> next = odd -> next -> next;
+            even -> next = even -> next -> next;
 
-        while(temp != nullptr && temp -> next != nullptr)
-        {
-            ls.push_back(temp -> val);
-            temp = temp -> next -> next;
-        }
-        if(temp)
-            ls.push_back(temp -> val);
-
-        int idx = 0;
-        temp = head;
-
-        while(temp != nullptr)
-        {
-            temp -> val = ls[idx];
-            idx++;
-            temp = temp -> next;
+            odd = odd -> next;
+            even = even -> next;
         }
         
+        odd -> next = evenHead;
+
         return head;
     }
 };
