@@ -68,6 +68,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0015-3sum) |
+| [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 ## Prefix Sum
@@ -80,6 +81,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 | [0190-reverse-bits](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0191-number-of-1-bits) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0240-search-a-2d-matrix-ii) |
@@ -91,6 +93,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -129,6 +132,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0237-delete-node-in-a-linked-list) |
@@ -144,4 +148,8 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
