@@ -12,24 +12,24 @@ public:
     }
 
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        int cnt = lengthOfLL(head);
+        ListNode* fast = head;
 
-        if (cnt == n) {
-            ListNode* newHead = head->next;
-            delete head;
-            return newHead;
+        for(int i = 0; i < n; i++)
+            fast = fast -> next;
+        
+        if (fast == nullptr) 
+            return head -> next;
+
+        ListNode* slow = head;
+
+        while(fast -> next != nullptr)
+        {
+            slow = slow -> next;
+            fast = fast -> next;
         }
 
-        int num = cnt - n;
-        ListNode* temp = head;
-
-        while (num > 1) {
-            temp = temp->next;
-            num--;
-        }
-
-        ListNode* delNode = temp->next;
-        temp->next = delNode->next; // Store the next node before deletion
+        ListNode* delNode = slow->next;
+        slow->next = delNode->next; // Store the next node before deletion
         delete delNode;
 
         return head;
