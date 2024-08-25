@@ -10,41 +10,26 @@
  */
 class Solution {
 public:
-    int lengthOfLL(ListNode *head)
-    {
-        int cnt = 0;           // Counter to count nodes
-        ListNode *temp = head; // Temp pointer to traverse the list
-
-        while (temp)
-        {
-            temp = temp->next; // Move to the next node
-            cnt++;             // Increment counter
-        }
-        return cnt;
-    }
-
     ListNode* deleteMiddle(ListNode* head) 
     {
         if(head == nullptr || head -> next == nullptr)
             return nullptr;
+            
+        ListNode* fast = head;
+        ListNode* slow = head;
 
-        int cnt = lengthOfLL(head);
-        ListNode* temp = head;
+        fast = fast -> next -> next;
 
-        int prevMidNode = cnt / 2;
-
-        while(temp != nullptr)
+        while(fast != nullptr && fast -> next != nullptr)
         {
-            prevMidNode--;
-            if(prevMidNode == 0) break;
-            temp = temp -> next;
+            slow = slow -> next;
+            fast = fast -> next -> next;
         }
-
-        ListNode* delNode = temp -> next;
-        temp -> next = delNode -> next;
+        
+        ListNode* delNode = slow -> next;
+        slow -> next = delNode -> next;
         delete delNode;
 
         return head;
-        
     }
 };
