@@ -8,30 +8,45 @@
  */
 class Solution {
 public:
+    int lengthOfLL(ListNode* head)
+    {
+        int cnt = 0; //counter to count
+        ListNode* temp = head; // temp to move forward
+
+        while(temp)
+        {
+            temp = temp -> next; //moving to next node
+            cnt++; //whenever we move to next node we increment counter
+        }
+        return cnt;
+    }
+    ListNode* collisionPt(ListNode* smallerHead, ListNode* largerHead, int diff)
+    {
+        while(diff)
+        {
+            diff--;
+            largerHead = largerHead -> next;
+        }
+
+        while(smallerHead != largerHead)
+        {
+            smallerHead = smallerHead -> next;
+            largerHead = largerHead -> next;
+        }
+
+        return smallerHead;
+    }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) 
     {
-        map<ListNode*, int>mpp;
+        ListNode* tempA = headA;
+        int nA = lengthOfLL(headA);
 
-        ListNode* temp;
+        ListNode* tempB = headB;
+        int nB = lengthOfLL(headB);
 
-        temp = headA;
-        
-        while(temp != nullptr)
-        {
-            mpp[temp] = 1;
-            temp = temp -> next;
-        }
-
-        temp = headB;
-
-        while(temp != nullptr)
-        {
-            if(mpp.find(temp) != mpp.end())
-                return temp;
-
-            temp = temp -> next;
-        }
-
-        return nullptr;
+        if(nA < nB)
+            return collisionPt(headA, headB, nB - nA);
+        else
+            return collisionPt(headB, headA, nA - nB);
     }
 };
