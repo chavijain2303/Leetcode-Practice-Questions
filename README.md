@@ -107,6 +107,7 @@
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0002-add-two-numbers) |
 | [0070-climbing-stairs](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0371-sum-of-two-integers) |
@@ -131,6 +132,7 @@
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0141-linked-list-cycle) |
@@ -146,6 +148,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
