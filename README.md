@@ -114,6 +114,7 @@
 | [0070-climbing-stairs](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0371-sum-of-two-integers) |
+| [2050-count-good-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/2050-count-good-numbers) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -160,6 +161,7 @@
 | [0050-powx-n](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/2050-count-good-numbers) |
 ## Stack
 |  |
 | ------- |
