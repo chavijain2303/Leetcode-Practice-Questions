@@ -1,33 +1,23 @@
 class Solution {
 public:
-    void helper(int idx, vector<int>& current, vector<vector<int>>& ls, vector<int>& nums, int n) 
+    // Function to generate subsets (backtracking solution)
+    void helper(int idx, vector<int>& current, vector<vector<int>>& ls, vector<int>& nums) 
     {
-        if (idx >= n) 
+        ls.push_back(current);  
+    
+        for (int i = idx; i < nums.size(); i++) 
         {
-            ls.push_back(current);  // Add the current subset to the list of subsets
-            return;
+            current.push_back(nums[i]);
+            helper(i + 1, current, ls, nums);
+            current.pop_back();
         }
-
-        // Include nums[idx] in the current subset
-        current.push_back(nums[idx]);
-        helper(idx + 1, current, ls, nums, n);  // Explore with current element
-
-        // Exclude nums[idx] from the current subset
-        current.pop_back();
-        helper(idx + 1, current, ls, nums, n);  // Explore without current element
     }
 
     vector<vector<int>> subsets(vector<int>& nums) 
     {
         vector<vector<int>> ls;  // To store all subsets
-
-        vector<int> current;  // To store the current subset
-
-        int n = nums.size();
-
-        helper(0, current, ls, nums, n);  // Call the helper function
-        
+        vector<int> current;     // To store the current subset
+        helper(0, current, ls, nums);  // Start recursion
         return ls;  // Return the list of all subsets
     }
-
 };
