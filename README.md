@@ -17,6 +17,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -119,6 +120,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0078-subsets) |
 | [0190-reverse-bits](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0191-number-of-1-bits) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
@@ -180,4 +182,5 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
