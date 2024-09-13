@@ -1,23 +1,29 @@
 class Solution {
 public:
-    // Function to generate subsets (backtracking solution)
-    void helper(int idx, vector<int>& current, vector<vector<int>>& ls, vector<int>& nums) 
+vector<vector<int>> subsets(vector<int>& nums) 
+{
+    vector<vector<int>> allSubsets;
+    int n = nums.size();
+    int totalSubsets = 1 << n;  // This is 2^n subsets
+
+    // Iterate over each possible subset (from 0 to 2^n - 1)
+    for (int subsetMask = 0; subsetMask < totalSubsets; ++subsetMask) 
     {
-        ls.push_back(current);  
-    
-        for (int i = idx; i < nums.size(); i++) 
+        vector<int> currentSubset;
+
+        // Check each bit of subsetMask to decide whether to include nums[i]
+        for (int i = 0; i < n; ++i) 
         {
-            current.push_back(nums[i]);
-            helper(i + 1, current, ls, nums);
-            current.pop_back();
+            if (subsetMask & (1 << i)) 
+            {
+                // If the ith bit is set, include nums[i] in the current subset
+                currentSubset.push_back(nums[i]);
+            }
         }
+
+        allSubsets.push_back(currentSubset);  // Add current subset to the list
     }
 
-    vector<vector<int>> subsets(vector<int>& nums) 
-    {
-        vector<vector<int>> ls;  // To store all subsets
-        vector<int> current;     // To store the current subset
-        helper(0, current, ls, nums);  // Start recursion
-        return ls;  // Return the list of all subsets
-    }
+    return allSubsets;
+}
 };
