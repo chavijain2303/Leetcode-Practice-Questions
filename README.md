@@ -53,6 +53,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0001-two-sum) |
+| [0012-integer-to-roman](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0012-integer-to-roman) |
 | [0138-copy-list-with-random-pointer](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0142-linked-list-cycle-ii) |
@@ -120,6 +121,7 @@
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0002-add-two-numbers) |
+| [0012-integer-to-roman](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0012-integer-to-roman) |
 | [0050-powx-n](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
@@ -188,6 +190,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0008-string-to-integer-atoi) |
+| [0012-integer-to-roman](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0151-reverse-words-in-a-string) |
