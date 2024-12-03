@@ -4,31 +4,34 @@ public:
     {
         int n = s.length();
         int i = 0;
-        string res;
+        reverse(s.begin(), s.end()); // Reverse the entire string
 
-        while(i < n)
+        int index = 0; // Index to store the cleaned-up version of the string
+        while (i < n) 
         {
-            while(i < n && s[i] == ' ')
+            // Skip leading spaces
+            while (i < n && s[i] == ' ') 
                 i++;
             
-            if(i >= n)
+            if (i >= n) 
                 break;
-            
-            int j = i + 1;
-            while(j < n && s[j] != ' ')
-                j++;
 
-            string w = s.substr(i, j - i);
+            // Find the end of the current word
+            int start = i;
+            while (i < n && s[i] != ' ') 
+                i++;
 
-            if(res.length() == 0)
-                res = w;
-            
-            else
-                res = w + " " + res;
+            // Reverse the word
+            reverse(s.begin() + start, s.begin() + i);
 
-            i = j + 1;
+            // Copy the word to the correct position
+            if (index != 0) 
+                s[index++] = ' '; // Add a space before the next word
+            while (start < i) 
+                s[index++] = s[start++];
         }
-        
-        return res;
+
+        s.resize(index); // Remove trailing spaces
+        return s;
     }
 };
