@@ -170,6 +170,7 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
+| [1078-remove-outermost-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1078-remove-outermost-parentheses) |
 ## Merge Sort
 |  |
 | ------- |
@@ -179,6 +180,7 @@
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0022-generate-parentheses) |
+| [1078-remove-outermost-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1078-remove-outermost-parentheses) |
 ## Backtracking
 |  |
 | ------- |
