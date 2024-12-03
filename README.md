@@ -182,6 +182,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0008-string-to-integer-atoi) |
+| [0014-longest-common-prefix](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0014-longest-common-prefix) |
 | [0022-generate-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0022-generate-parentheses) |
 | [0151-reverse-words-in-a-string](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0151-reverse-words-in-a-string) |
 | [1078-remove-outermost-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/1078-remove-outermost-parentheses) |
@@ -192,4 +193,8 @@
 | [0022-generate-parentheses](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0039-combination-sum) |
 | [0078-subsets](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0078-subsets) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
