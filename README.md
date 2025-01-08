@@ -22,6 +22,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0189-rotate-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0240-search-a-2d-matrix-ii) |
@@ -108,6 +109,7 @@
 | [0148-sort-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0148-sort-list) |
 | [0151-reverse-words-in-a-string](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/chavijain2303/Leetcode_sql50/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -124,6 +126,7 @@
 | [0012-integer-to-roman](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0012-integer-to-roman) |
 | [0050-powx-n](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/chavijain2303/Leetcode_sql50/tree/master/0371-sum-of-two-integers) |
 | [2032-largest-odd-number-in-string](https://github.com/chavijain2303/Leetcode_sql50/tree/master/2032-largest-odd-number-in-string) |
